@@ -1,0 +1,396 @@
+% Service logfile
+% 1 	Time (sec)
+% 2 	Message
+1770391833.0775 msg: # Mqtt data connection established
+1770391833.2791 msg: # Mqtt cmd connection established
+1770391833.2899 msg: Teensy connection just opened
+1770391824.2288 Setup finished OK=1
+1770391833.5878 msg: # SCurrent: subscribed to Teensy data
+1770391833.5878 msg: # SDistForce: subscribed to Teensy data
+1770391833.5878 msg: # SEdge: subscribed to Teensy data
+1770391833.5879 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770391833.5879 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770391833.5879 msg: # SRobot:: subscribed to HBT
+1770391833.5879 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392381.1884 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392381.9918 msg: # SRobot:: subscribed to HBT
+1770392382.1926 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392382.7951 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392383.1968 msg: # SEdge: subscribed to Teensy data
+1770392384.2009 msg: # SRobot:: subscribed to HBT
+1770392384.4018 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392384.8034 msg: # SCurrent: subscribed to Teensy data
+1770392384.8034 msg: # SDistForce: subscribed to Teensy data
+1770392384.8034 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392386.0083 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392386.4100 msg: # SRobot:: subscribed to HBT
+1770392386.8116 msg: # SEdge: subscribed to Teensy data
+1770392387.4141 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392387.6148 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392388.2173 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392388.6190 msg: # SRobot:: subscribed to HBT
+1770392389.2214 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392389.6172 msg: # STeensy: close USB
+1770392389.7173 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM0' failed errno=2:
+1770392389.8227 msg: # SCurrent: subscribed to Teensy data
+1770392389.8227 msg: # SDistForce: subscribed to Teensy data
+1770392390.0236 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392390.4253 msg: # SEdge: subscribed to Teensy data
+1770392390.8269 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392390.8269 msg: # SRobot:: subscribed to HBT
+1770392392.4335 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392392.6343 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392393.0359 msg: # SRobot:: subscribed to HBT
+1770392394.0401 msg: # SEdge: subscribed to Teensy data
+1770392394.0401 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392394.8437 msg: # SCurrent: subscribed to Teensy data
+1770392394.8437 msg: # SDistForce: subscribed to Teensy data
+1770392395.2453 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392395.2453 msg: # SRobot:: subscribed to HBT
+1770392395.6474 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392396.8531 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392397.1110 msg: Teensy connection just opened
+1770392397.1162 msg: 1770392397.1162 NTP time glitch of 7.399 sec, maybe an NTP update
+
+1770392397.2547 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392397.4556 msg: # SRobot:: subscribed to HBT
+1770392397.6564 msg: # SEdge: subscribed to Teensy data
+1770392397.8572 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392398.8614 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392399.6647 msg: # SRobot:: subscribed to HBT
+1770392399.8655 msg: # SCurrent: subscribed to Teensy data
+1770392399.8655 msg: # SDistForce: subscribed to Teensy data
+1770392400.4681 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392400.4681 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392401.2714 msg: # SEdge: subscribed to Teensy data
+1770392401.8739 msg: # SRobot:: subscribed to HBT
+1770392402.0748 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392403.0789 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392403.6813 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392404.0831 msg: # SRobot:: subscribed to HBT
+1770392404.8863 msg: # SCurrent: subscribed to Teensy data
+1770392404.8863 msg: # SDistForce: subscribed to Teensy data
+1770392404.8863 msg: # SEdge: subscribed to Teensy data
+1770392405.2880 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392405.4888 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392405.6896 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392406.2922 msg: # SRobot:: subscribed to HBT
+1770392406.8946 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392407.1168 msg: # STeensy: close USB
+1770392407.2169 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM1' failed errno=2:
+1770392408.2993 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392408.5001 msg: # SEdge: subscribed to Teensy data
+1770392408.5001 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392408.5001 msg: # SRobot:: subscribed to HBT
+1770392409.9057 msg: # SCurrent: subscribed to Teensy data
+1770392409.9057 msg: # SDistForce: subscribed to Teensy data
+1770392410.1065 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392410.7088 msg: # SRobot:: subscribed to HBT
+1770392410.9096 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392411.7128 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392412.1144 msg: # SEdge: subscribed to Teensy data
+1770392412.9176 msg: # SRobot:: subscribed to HBT
+1770392413.3191 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392413.5199 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392414.1224 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392414.6038 msg: Teensy connection just opened
+1770392414.6089 msg: 1770392414.6089 NTP time glitch of 7.392 sec, maybe an NTP update
+
+1770392418.7408 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392419.3432 msg: # SRobot:: subscribed to HBT
+1770392419.7449 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392420.3503 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392420.7519 msg: # SEdge: subscribed to Teensy data
+1770392421.5551 msg: # SRobot:: subscribed to HBT
+1770392421.9567 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392422.1576 msg: # SCurrent: subscribed to Teensy data
+1770392422.1576 msg: # SDistForce: subscribed to Teensy data
+1770392422.3584 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392423.3623 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392423.5631 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392423.7639 msg: # SRobot:: subscribed to HBT
+1770392424.3664 msg: # SEdge: subscribed to Teensy data
+1770392424.9688 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392425.1696 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392425.9729 msg: # SRobot:: subscribed to HBT
+1770392426.7763 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392427.1453 msg: # STeensy: close USB
+1770392427.1773 msg: # SCurrent: subscribed to Teensy data
+1770392427.1774 msg: # SDistForce: subscribed to Teensy data
+1770392427.2455 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM0' failed errno=2:
+1770392427.5456 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM1' failed errno=2:
+1770392427.5778 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392427.9788 msg: # SEdge: subscribed to Teensy data
+1770392428.1797 msg: # SRobot:: subscribed to HBT
+1770392428.3805 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392429.9871 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392430.1880 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392430.3888 msg: # SRobot:: subscribed to HBT
+1770392431.5937 msg: # SEdge: subscribed to Teensy data
+1770392431.5937 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392431.9954 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392432.1964 msg: # SCurrent: subscribed to Teensy data
+1770392432.1964 msg: # SDistForce: subscribed to Teensy data
+1770392432.6006 msg: # SRobot:: subscribed to HBT
+1770392432.8014 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392433.2031 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392434.8097 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392434.8097 msg: # SRobot:: subscribed to HBT
+1770392434.9405 msg: Teensy connection just opened
+1770392434.9456 msg: 1770392434.9456 NTP time glitch of 7.700 sec, maybe an NTP update
+
+1770392435.2114 msg: # SEdge: subscribed to Teensy data
+1770392435.4122 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392436.4165 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392437.0189 msg: # SRobot:: subscribed to HBT
+1770392437.2198 msg: # SCurrent: subscribed to Teensy data
+1770392437.2198 msg: # SDistForce: subscribed to Teensy data
+1770392438.0230 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392438.0230 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392438.8264 msg: # SEdge: subscribed to Teensy data
+1770392439.2281 msg: # SRobot:: subscribed to HBT
+1770392439.6297 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392440.6339 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392440.6339 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392441.2364 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392441.4372 msg: # SRobot:: subscribed to HBT
+1770392442.2405 msg: # SCurrent: subscribed to Teensy data
+1770392442.2405 msg: # SDistForce: subscribed to Teensy data
+1770392442.4413 msg: # SEdge: subscribed to Teensy data
+1770392442.8429 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392443.2446 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392443.6464 msg: # SRobot:: subscribed to HBT
+1770392444.4497 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392444.9458 msg: # STeensy: close USB
+1770392445.0460 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM0' failed errno=2:
+1770392445.8543 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392445.8543 msg: # SRobot:: subscribed to HBT
+1770392446.0551 msg: # SEdge: subscribed to Teensy data
+1770392446.0551 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392447.2601 msg: # SCurrent: subscribed to Teensy data
+1770392447.2601 msg: # SDistForce: subscribed to Teensy data
+1770392447.6618 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392448.0634 msg: # SRobot:: subscribed to HBT
+1770392448.4651 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392449.2683 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392449.2683 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392449.6698 msg: # SEdge: subscribed to Teensy data
+1770392450.2722 msg: # SRobot:: subscribed to HBT
+1770392450.8746 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392451.0754 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392452.2801 msg: # SCurrent: subscribed to Teensy data
+1770392452.2801 msg: # SDistForce: subscribed to Teensy data
+1770392452.4387 msg: Teensy connection just opened
+1770392452.4438 msg: 1770392452.4438 NTP time glitch of 7.398 sec, maybe an NTP update
+
+1770392496.4596 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392496.6604 msg: # SRobot:: subscribed to HBT
+1770392497.4637 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392498.0661 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392498.4679 msg: # SEdge: subscribed to Teensy data
+1770392498.8695 msg: # SRobot:: subscribed to HBT
+1770392499.6728 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392499.8736 msg: # SCurrent: subscribed to Teensy data
+1770392499.8736 msg: # SDistForce: subscribed to Teensy data
+1770392500.0743 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392501.0784 msg: # SRobot:: subscribed to HBT
+1770392501.2792 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392502.0824 msg: # SEdge: subscribed to Teensy data
+1770392502.6850 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392502.8858 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392503.0866 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392503.2874 msg: # SRobot:: subscribed to HBT
+1770392504.4923 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392504.8139 msg: # STeensy: close USB
+1770392504.8933 msg: # SCurrent: subscribed to Teensy data
+1770392504.8933 msg: # SDistForce: subscribed to Teensy data
+1770392504.9140 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM1' failed errno=2:
+1770392505.2943 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392505.4951 msg: # SRobot:: subscribed to HBT
+1770392505.6960 msg: # SEdge: subscribed to Teensy data
+1770392506.0976 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392507.7041 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392507.7041 msg: # SRobot:: subscribed to HBT
+1770392507.9049 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392509.3106 msg: # SEdge: subscribed to Teensy data
+1770392509.3106 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392509.9131 msg: # SCurrent: subscribed to Teensy data
+1770392509.9131 msg: # SDistForce: subscribed to Teensy data
+1770392509.9131 msg: # SRobot:: subscribed to HBT
+1770392510.5156 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392510.9172 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392511.7205 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392512.1221 msg: # SRobot:: subscribed to HBT
+1770392512.3093 msg: Teensy connection just opened
+1770392512.3144 msg: 1770392512.3144 NTP time glitch of 7.400 sec, maybe an NTP update
+
+1770392573.7693 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392574.1710 msg: # SRobot:: subscribed to HBT
+1770392574.7735 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392575.3760 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392575.7777 msg: # SEdge: subscribed to Teensy data
+1770392576.3801 msg: # SRobot:: subscribed to HBT
+1770392576.9827 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392577.3844 msg: # SCurrent: subscribed to Teensy data
+1770392577.3844 msg: # SDistForce: subscribed to Teensy data
+1770392577.3844 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392577.9869 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392578.5893 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392578.5893 msg: # SRobot:: subscribed to HBT
+1770392579.3927 msg: # SEdge: subscribed to Teensy data
+1770392579.9952 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392580.1960 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392580.7986 msg: # SRobot:: subscribed to HBT
+1770392581.8027 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392582.2521 msg: # STeensy: close USB
+1770392582.3523 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM0' failed errno=2:
+1770392582.4046 msg: # SCurrent: subscribed to Teensy data
+1770392582.4046 msg: # SDistForce: subscribed to Teensy data
+1770392582.6049 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392583.0066 msg: # SEdge: subscribed to Teensy data
+1770392583.0066 msg: # SRobot:: subscribed to HBT
+1770392583.4083 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392585.0149 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392585.2157 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392585.2157 msg: # SRobot:: subscribed to HBT
+1770392586.6214 msg: # SEdge: subscribed to Teensy data
+1770392586.6215 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392586.6215 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770392587.4249 msg: # SCurrent: subscribed to Teensy data
+1770392587.4249 msg: # SDistForce: subscribed to Teensy data
+1770392587.4249 msg: # SRobot:: subscribed to HBT
+1770392587.8265 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392588.2280 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392589.6338 msg: # SRobot:: subscribed to HBT
+1770392589.7454 msg: Teensy connection just opened
+1770392589.7506 msg: 1770392589.7506 NTP time glitch of 7.398 sec, maybe an NTP update
+
+1770392995.0693 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392995.6717 msg: # SRobot:: subscribed to HBT
+1770392996.0733 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392996.6758 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392997.0774 msg: # SEdge: subscribed to Teensy data
+1770392997.8805 msg: # SRobot:: subscribed to HBT
+1770392998.2821 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770392998.6838 msg: # SCurrent: subscribed to Teensy data
+1770392998.6838 msg: # SDistForce: subscribed to Teensy data
+1770392998.6838 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770392999.8886 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393000.0899 msg: # SRobot:: subscribed to HBT
+1770393000.6925 msg: # SEdge: subscribed to Teensy data
+1770393000.8933 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770393001.2957 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393001.4964 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393002.2997 msg: # SRobot:: subscribed to HBT
+1770393003.1030 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393003.5435 msg: # STeensy: close USB
+1770393003.6436 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM1' failed errno=2:
+1770393003.7048 msg: # SCurrent: subscribed to Teensy data
+1770393003.7048 msg: # SDistForce: subscribed to Teensy data
+1770393003.9051 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393004.3066 msg: # SEdge: subscribed to Teensy data
+1770393004.5075 msg: # SRobot:: subscribed to HBT
+1770393004.7082 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393006.3146 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393006.5155 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393006.7163 msg: # SRobot:: subscribed to HBT
+1770393007.9213 msg: # SEdge: subscribed to Teensy data
+1770393007.9213 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393008.7245 msg: # SCurrent: subscribed to Teensy data
+1770393008.7245 msg: # SDistForce: subscribed to Teensy data
+1770393008.9253 msg: # SRobot:: subscribed to HBT
+1770393009.1262 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393009.5278 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393009.5278 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770393011.0293 msg: Teensy connection just opened
+1770393011.0344 msg: 1770393011.0344 NTP time glitch of 7.391 sec, maybe an NTP update
+
+1770393269.7802 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393270.3826 msg: # SRobot:: subscribed to HBT
+1770393270.7843 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393271.3867 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393271.7884 msg: # SEdge: subscribed to Teensy data
+1770393272.5917 msg: # SRobot:: subscribed to HBT
+1770393272.9933 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393273.3949 msg: # SCurrent: subscribed to Teensy data
+1770393273.3949 msg: # SDistForce: subscribed to Teensy data
+1770393273.3949 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393274.5999 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393274.5999 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770393274.8007 msg: # SRobot:: subscribed to HBT
+1770393275.4032 msg: # SEdge: subscribed to Teensy data
+1770393276.0057 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393276.2065 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393277.0096 msg: # SRobot:: subscribed to HBT
+1770393277.8128 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393278.2609 msg: # STeensy: close USB
+1770393278.3611 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM0' failed errno=2:
+1770393278.4147 msg: # SCurrent: subscribed to Teensy data
+1770393278.4147 msg: # SDistForce: subscribed to Teensy data
+1770393278.6149 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393279.0166 msg: # SEdge: subscribed to Teensy data
+1770393279.2174 msg: # SRobot:: subscribed to HBT
+1770393279.4182 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393281.0247 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393281.2255 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393281.4263 msg: # SRobot:: subscribed to HBT
+1770393282.6313 msg: # SEdge: subscribed to Teensy data
+1770393282.6313 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393283.2337 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770393283.4345 msg: # SCurrent: subscribed to Teensy data
+1770393283.4345 msg: # SDistForce: subscribed to Teensy data
+1770393283.6354 msg: # SRobot:: subscribed to HBT
+1770393283.8362 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393284.2378 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393285.7549 msg: Teensy connection just opened
+1770393285.7601 msg: 1770393285.7601 NTP time glitch of 7.399 sec, maybe an NTP update
+
+1770393285.8444 msg: # SRobot:: subscribed to HBT
+1770393397.4931 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393397.8947 msg: # SRobot:: subscribed to HBT
+1770393398.4971 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393399.0995 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393399.5011 msg: # SEdge: subscribed to Teensy data
+1770393400.1036 msg: # SRobot:: subscribed to HBT
+1770393400.7061 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393400.9069 msg: # SCurrent: subscribed to Teensy data
+1770393400.9069 msg: # SDistForce: subscribed to Teensy data
+1770393401.1078 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393402.3130 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393402.3130 msg: # SRobot:: subscribed to HBT
+1770393403.1163 msg: # SEdge: subscribed to Teensy data
+1770393403.7188 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393403.7188 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770393403.9196 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393404.5222 msg: # SRobot:: subscribed to HBT
+1770393405.5263 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393405.8585 msg: # STeensy: close USB
+1770393405.9273 msg: # SCurrent: subscribed to Teensy data
+1770393405.9273 msg: # SDistForce: subscribed to Teensy data
+1770393405.9587 msg: # STeensy[0]::openToTeensy open '/dev/ttyACM1' failed errno=2:
+1770393406.3301 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393406.7317 msg: # SEdge: subscribed to Teensy data
+1770393406.7317 msg: # SRobot:: subscribed to HBT
+1770393407.1334 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393408.7400 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393408.9409 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393408.9409 msg: # SRobot:: subscribed to HBT
+1770393410.3466 msg: # SEdge: subscribed to Teensy data
+1770393410.3466 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393410.9017 Unused command: robobot/cmd/ti 1770393410.9014 log 1
+1770393410.9028 Shutdown: robobot/cmd/shutdown 1770393410.9014 GPIO button
+1770393410.9028 Got power off from (to teensy 0) 1770393410.9014 GPIO button
+1770393410.9028 send power off to teensy
+1770393410.9490 msg: # SCurrent: subscribed to Teensy data
+1770393410.9490 msg: # SDistForce: subscribed to Teensy data
+1770393411.1498 msg: # SRobot:: subscribed to HBT
+1770393411.5513 msg: # SImu: subscribed to Teensy data (gyro and acc)
+1770393411.9537 msg: # SEncoder: subscribed to Teensy data (pose and/or vel)
+1770393412.3553 msg: # STeensy: subscribed to Teensy data (id -> dname)
+1770393413.3452 msg: Teensy connection just opened
+1770393413.3503 msg: 1770393413.3503 NTP time glitch of 7.392 sec, maybe an NTP update
+
+1770393431.6621 msg: 1770393431.6621 NTP time glitch of 18.308 sec, maybe an NTP update
+
+1770393431.6627 msg: # STeensy: close USB
+1770393412.9077 All terminated; closing logfile

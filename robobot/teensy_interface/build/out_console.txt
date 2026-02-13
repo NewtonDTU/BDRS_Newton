@@ -1,0 +1,202 @@
+# UService:: created directory log_20260206_165658.030/
+# UService:: no logging at start
+# UMqtt:: Waiting for (drive) Mosquitto (1)
+# UMqtt:: Waiting for (drive) Mosquitto (2)
+# UMqtt:: Waiting for (drive) Mosquitto (3)
+# UMqtt:: Waiting for (drive) Mosquitto (4)
+# UMqtt:: Waiting for (drive) Mosquitto (5)
+# UMqtt:: Waiting for (drive) Mosquitto (6)
+# UMqtt:: connection to MQTT broker on tcp://localhost:1883 established
+# UMqttIn:: connection to MQTT broker on tcp://localhost:1883 established
+# STeensy:: opening to USB /dev/ttyACM0
+# STeensy:: just connected 
+# SRobot:: (t0) found IP 0: wlan0 10.197.218.180
+# SGpiod::setup GPIO disabled (in robot.ini)
+# UService:: setup of Teensy 0 modules finished OK.
+# SRobot::setRobotName (section robot0) new robot name Newton
+# STeensy[0]:: time glitch of 594545.812 sec, 20.1 secs after app start, maybe an NTP update
+# 1770987992.0179 UMqttIn:: Connection lost (rc=(null)) at 2026-02-13 14:06:32.017
+# UMqtt:: (data) Connection lost (cause: (null))
+Failed to publish message, return code -1
+Failed to publish message, return code -3
+Failed to publish message, return code -3
+Failed to publish message, return code -3
+# 1770987992.1383 MQTT (data) reconnect (2026-02-13 14:06:32.138)
+# 1770987992.1383 MQTT (data) reconnected (2026-02-13 14:06:32.138)
+Failed to publish message, return code -3
+# 1770987996.0435 MQTT (cmd) reconnect (2026-02-13 14:06:36.043)
+# 1770987996.0435 MQTT (cmd) reconnected (2026-02-13 14:06:36.043)
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM0
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM0
+# It seems like Teensy is reconnected (now /dev/ttyACM1) - re-init connection
+# UService::setup - waited 7.00822 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.402 sec, 79.7994 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM1
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM1
+# It seems like Teensy is reconnected (now /dev/ttyACM0) - re-init connection
+# UService::setup - waited 7.00055 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.391 sec, 207.003 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM0
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM0
+# It seems like Teensy is reconnected (now /dev/ttyACM1) - re-init connection
+# UService::setup - waited 7.00204 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.393 sec, 808.65 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM1
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM1
+# It seems like Teensy is reconnected (now /dev/ttyACM0) - re-init connection
+# UService::setup - waited 7.00823 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.404 sec, 982.007 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM0
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM0
+# It seems like Teensy is reconnected (now /dev/ttyACM1) - re-init connection
+# UService::setup - waited 7.00834 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.399 sec, 1002 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM1
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM1
+# It seems like Teensy is reconnected (now /dev/ttyACM0) - re-init connection
+# MQTT decode:: (err=0) new master '2026-02-13 14:23:07.805731'
+# Started logging
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# Flush of logfiles to disk took 0.000054 sec
+# UService::setup - waited 7.00731 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.398 sec, 1019.5 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# UService::run: master lost (2026-02-13 14:23:07.805731), no alive in 4.06 sec
+# UService:: should probably stop the robot, but ignored for now.
+# MQTT decode:: (err=0) new master '2026-02-13 14:23:42.915853'
+# Started logging
+# CMixer::setVelocity: vel=0.200 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# Flush of logfiles to disk took 0.000093 sec
+# UService::run: master lost (2026-02-13 14:23:42.915853), no alive in 4.06 sec
+# UService:: should probably stop the robot, but ignored for now.
+# MQTT decode:: (err=0) new master '2026-02-13 14:25:41.554393'
+# Started logging
+# CMixer::setVelocity: vel=0.200 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM0
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM0
+# It seems like Teensy is reconnected (now /dev/ttyACM1) - re-init connection
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# Flush of logfiles to disk took 0.000126 sec
+# UService::run: master lost (2026-02-13 14:25:41.554393), no alive in 4.08 sec
+# UService:: should probably stop the robot, but ignored for now.
+# UService::setup - waited 7.00125 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.392 sec, 1191.56 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# Teensy[0]::message queue compare err: '!sub pose 5
+' != ';74!sub mot 33
+'
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM1
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM1
+# It seems like Teensy is reconnected (now /dev/ttyACM0) - re-init connection
+# UService::setup - waited 7.00064 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.391 sec, 1209.25 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# MQTT decode:: (err=0) new master '2026-02-13 14:26:32.839601'
+# Started logging
+# CMixer::setVelocity: vel=0.200 (m/s), turnrate=0.000 (rad/sec)
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM0
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM0
+# It seems like Teensy is reconnected (now /dev/ttyACM1) - re-init connection
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# UService::setup - waited 7.00407 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.395 sec, 1242.04 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# Flush of logfiles to disk took 0.000060 sec
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM1
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM1
+# It seems like Teensy is reconnected (now /dev/ttyACM0) - re-init connection
+# UService::run: master lost (2026-02-13 14:26:32.839601), no alive in 4.09 sec
+# UService:: should probably stop the robot, but ignored for now.
+# UService::setup - waited 7.00944 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.400 sec, 1259.54 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM0
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM0
+# It seems like Teensy is reconnected (now /dev/ttyACM1) - re-init connection
+# UService::setup - waited 7.0006 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.391 sec, 1277.04 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM1
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM1
+# It seems like Teensy is reconnected (now /dev/ttyACM0) - re-init connection
+# UService::setup - waited 7.00196 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.393 sec, 1294.53 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# MQTT decode:: (err=0) new master '2026-02-13 14:30:10.939753'
+# Started logging
+# CMixer::setVelocity: vel=0.200 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# Flush of logfiles to disk took 0.000112 sec
+# UService::run: master lost (2026-02-13 14:30:10.939753), no alive in 4.07 sec
+# UService:: should probably stop the robot, but ignored for now.
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM0
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM0
+# It seems like Teensy is reconnected (now /dev/ttyACM1) - re-init connection
+# UService::setup - waited 7.00746 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.398 sec, 1535.97 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# MQTT decode:: (err=0) new master '2026-02-13 14:33:54.183260'
+# Started logging
+# UTeensy:: close for now
+# STeensy: close USB
+# STeensy:: opening to USB /dev/ttyACM1
+# Open file failed OTHER (errno = 2) dev=/dev/ttyACM1
+# It seems like Teensy is reconnected (now /dev/ttyACM0) - re-init connection
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# Flush of logfiles to disk took 0.000058 sec
+# UService::run: master lost (2026-02-13 14:33:54.183260), no alive in 4.07 sec
+# UService:: should probably stop the robot, but ignored for now.
+# UService::setup - waited 7.00738 sec for initial Teensy setup
+# STeensy[0]:: time glitch of 7.398 sec, 1668.94 secs after app start, maybe an NTP update
+# STeensy:: just connected 
+# MQTT decode:: (err=0) new master '2026-02-13 14:34:22.677207'
+# Started logging
+# CMixer::setVelocity: vel=0.200 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
+# CMixer::setVelocity: vel=0.000 (m/s), turnrate=0.000 (rad/sec)
