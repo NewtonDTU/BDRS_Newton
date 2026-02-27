@@ -68,7 +68,7 @@ class SEdge:
     # follow line controller
     lineCtrl = False # private
     # try with a P-Lead controller
-    lineKp   = 1.3
+    lineKp   = 1
     lineTauZ = 0.2
     lineTauP = 0.075
     # Lead pre-calculated factors
