@@ -68,9 +68,9 @@ class SEdge:
     # follow line controller
     lineCtrl = False # private
     # try with a P-Lead controller
-    lineKp = 1.0 # 5  (rad/s per sensor value)
-    lineTauZ = 0.8 # 0.8 (second)
-    lineTauP = 0.15 # 0.15 (second)
+    lineKp   = 2.0
+    lineTauZ = 0.15
+    lineTauP = 0.075
     # Lead pre-calculated factors
     tauP2pT = 1.0
     tauP2mT = 0.0
@@ -365,10 +365,10 @@ class SEdge:
       # Lead filter
       self.lineY = (self.u * self.tauZ2pT - self.lineE1 * self.tauZ2mT + self.lineY1 * self.tauP2mT)/self.tauP2pT;
       #
-      if self.lineY > 4:
-        self.lineY = 4
-      elif self.lineY < -4:
-        self.lineY = -4
+      if self.lineY > 3:
+        self.lineY = 3
+      elif self.lineY < -3:
+        self.lineY = -3
       # save old values
       self.lineE1 = self.u
       self.lineY1 = self.lineY
