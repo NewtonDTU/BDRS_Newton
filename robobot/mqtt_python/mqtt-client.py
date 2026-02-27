@@ -209,19 +209,20 @@ def loop():
   # elif not service.args.now:
   #   print("% Ready, press start button")
   # main state machine
-  edge.lineControl(0.15, True) # make sure line control is off (velocity 0)
+  edge.lineControl(0, True) # make sure line control is off (velocity 0)
   while not (service.stop):
     if state == 0: # wait for start signal
       start = True # gpio.start() or service.args.now
       if start:
         print("% Starting")
+        service.send("robobot/cmd/ti","rc 0.3 0.0")
         state = 12
         pose.tripBreset()
     elif state == 12: # find the line
 
       if edge.lineValidCnt > 4:
         # start following the line
-        #edge.lineControl(0.2, True)
+        edge.lineControl(0.2, True)
         service.send("robobot/cmd/T0","servo 1 0 0") # (move servo to position 0 - front)
         pose.tripBreset()
         state = 13
