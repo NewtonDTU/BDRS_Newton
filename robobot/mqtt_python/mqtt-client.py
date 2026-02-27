@@ -114,7 +114,7 @@ def driveOneMeter():
 def driveToLine():
   state = 0
   pose.tripBreset()
-  dist_to_line = 0;
+  dist_to_line = 0
   print("% Driving to line ---------------------- right ir start ---")
   service.send("robobot/cmd/T0", "leds 16 0 100 0") # green
   while not (service.stop):
@@ -152,7 +152,7 @@ def driveToLine():
       print(f"# drive to line {dist_to_line:.3f}m, then along line {pose.tripB:.3f}m in {pose.tripBtimePassed():.3f} seconds")
       service.send("robobot/cmd/ti","rc 0.0 0.0") # (forward m/s, turn-rate rad/sec)
       service.send("robobot/cmd/T0","servo 1 500 200") # (move servo down slow)
-      break;
+      break
     # print(f"# drive {state}, now {pose.tripB:.3f}m in {pose.tripBtimePassed():.3f} seconds, line valid cnt = {edge.lineValidCnt}")
     t.sleep(0.01)
   pass
@@ -209,7 +209,7 @@ def loop():
   # elif not service.args.now:
   #   print("% Ready, press start button")
   # main state machine
-  edge.lineControl(0, True) # make sure line control is off (velocity 0)
+  edge.lineControl(0.15, True) # make sure line control is off (velocity 0)
   while not (service.stop):
     if state == 0: # wait for start signal
       start = True # gpio.start() or service.args.now
@@ -251,10 +251,10 @@ def loop():
         state = 99
       pass
     elif state == 101:
-      driveOneMeter();
+      driveOneMeter()
       state = 100
     elif state == 102:
-      driveTurnPi();
+      driveTurnPi()
       state = 100
     elif state == 103:
       driveToLine()

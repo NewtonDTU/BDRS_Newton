@@ -70,7 +70,7 @@ class UService:
   terminating = False
   confirmedMaster = False
   confirmedNotMaster = False
-  parser = argparse.ArgumentParser(description='Robobot app 2024')
+  parser = argparse.ArgumentParser(description='Robobot app 2026')
 
   def setup(self, mqtt_host):
     #
