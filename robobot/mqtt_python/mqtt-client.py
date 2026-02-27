@@ -215,14 +215,14 @@ def loop():
       start = True # gpio.start() or service.args.now
       if start:
         print("% Starting")
-        service.send("robobot/cmd/ti","rc 0.3 0.0")
+        service.send("robobot/cmd/ti","rc 0.4 0.0")
         state = 12
         pose.tripBreset()
     elif state == 12: # find the line
 
       if edge.lineValidCnt > 4:
         # start following the line
-        edge.lineControl(0.3, True, -1)
+        edge.lineControl(0.4, True, -1)
         service.send("robobot/cmd/T0","servo 1 0 0") # (move servo to position 0 - front)
         pose.tripBreset()
         state = 13
