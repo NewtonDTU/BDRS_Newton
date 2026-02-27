@@ -216,7 +216,7 @@ def loop():
       if start:
         print("% Starting")
         # service.send("robobot/cmd/T0","leds 16 0 0 30")
-        service.send("robobot/cmd/ti","rc 3 0.0")
+        service.send("robobot/cmd/ti","rc 0.05 0.0")
         service.send("robobot/cmd/T0","servo 1 100 300")
         state = 12
         pose.tripBreset()
