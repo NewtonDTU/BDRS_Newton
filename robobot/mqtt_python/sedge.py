@@ -70,7 +70,7 @@ class SEdge:
     # try with a P-Lead controller
     lineKp = 0.8 # 5  (rad/s per sensor value)
     lineTauZ = 0.3 # 0.8 (second)
-    lineTauP = 0.5 # 0.15 (second)
+    lineTauP = 0.15 # 0.15 (second)
     # Lead pre-calculated factors
     tauP2pT = 1.0
     tauP2mT = 0.0
