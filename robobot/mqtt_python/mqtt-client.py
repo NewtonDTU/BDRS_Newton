@@ -222,7 +222,7 @@ def loop():
 
       if edge.lineValidCnt > 4:
         # start following the line
-        edge.lineControl(0.35, True, -1)
+        edge.lineControl(0.4, True, -1)
         service.send("robobot/cmd/T0","servo 1 0 0") # (move servo to position 0 - front)
         pose.tripBreset()
         state = 13
