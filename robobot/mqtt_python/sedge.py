@@ -68,9 +68,9 @@ class SEdge:
     # follow line controller
     lineCtrl = False # private
     # try with a P-Lead controller
-    lineKp = 1.0 # 5  (rad/s per sensor value)
-    lineTauZ = 0.8 # 0.8 (second)
-    lineTauP = 0.25 # 0.15 (second)
+    lineKp = 0.7 # 5  (rad/s per sensor value)
+    lineTauZ = 0.12 # 0.8 (second)
+    lineTauP = 0.15 # 0.15 (second)
     # Lead pre-calculated factors
     tauP2pT = 1.0
     tauP2mT = 0.0
@@ -280,13 +280,13 @@ class SEdge:
       # find levels (and average)
       # using normalised readings (0 (no reflection) to 1000 (calibrated white)))
       for i in range(8):
-        sum += self.edge_n[i] # for average
+        sum += self.edge_n[i] # edge_n - normalized edge values
         if self.edge_n[i] > high:
           high = self.edge_n[i] # most bright value (floor level)
       self.high = high # most white level
       # print(f"% Edge (sedge.py):: {low}, {high} - what")
       # average white level
-      self.average = sum / 8.0;
+      self.average = sum / 8.0
       # detect if we have a crossing line
       self.crossingLine = self.average >= self.crossingThreshold
       # is line valid (high above threshold)
@@ -299,17 +299,17 @@ class SEdge:
           posLeft = -3 # between sensor 1 and 2 or more right
           for i in range(1,8):
             if self.edge_n[i] < self.lineValidThreshold:
-              posLeft += 1;
+              posLeft += 1
             else:
-              break;
+              break
         posRight = 3.5 # max right
         if self.edge_n[7] < self.lineValidThreshold:
           posRight = 3 # may be between sensor 8 and 7 or more left
           for i in range(1,8):
             if self.edge_n[7-i] < self.lineValidThreshold:
-              posRight -= 1;
+              posRight -= 1
             else:
-              break;
+              break
         self.posLeft = posLeft
         self.posRight = posRight
       else:
