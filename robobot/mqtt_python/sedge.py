@@ -68,9 +68,9 @@ class SEdge:
     # follow line controller
     lineCtrl = False # private
     # try with a P-Lead controller
-    lineKp = 0.7 # proportional gain (rad/s per sensor unit)
-    lineTauZ = 0.05 # derivative lead time (second)
-    lineTauP = 0.05 # integral lag time (second)
+    lineKp = 1.0 # 5  (rad/s per sensor value)
+    lineTauZ = 0.3 # 0.8 (second)
+    lineTauP = 0.15 # 0.15 (second)
     # Lead pre-calculated factors
     tauP2pT = 1.0
     tauP2mT = 0.0
@@ -370,8 +370,8 @@ class SEdge:
       elif self.lineY < -4:
         self.lineY = -4
       # save old values
-      self.lineE1 = self.u;
-      self.lineY1 = self.lineY;
+      self.lineE1 = self.u
+      self.lineY1 = self.lineY
       # make response
       par = f"rc {self.velocity:.3f} {self.lineY:.3f} {t.time()}"
       # debug - no action, go straight
