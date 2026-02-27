@@ -68,7 +68,7 @@ class SEdge:
     # follow line controller
     lineCtrl = False # private
     # try with a P-Lead controller
-    lineKp = 0.9 # proportional gain (rad/s per sensor unit)
+    lineKp = 0.85 # proportional gain (rad/s per sensor unit)
     lineTauZ = 0.18 # derivative lead time (second)
     lineTauP = 0.12 # integral lag time (second)
     # Lead pre-calculated factors
