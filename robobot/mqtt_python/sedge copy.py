@@ -235,8 +235,7 @@ class SEdge:
         contrast = self.high - self.low
 
         # strong white area -> possible crossing / wide line
-        self.crossingLine = self.average >= self.crossingThreshold
-
+        self.crossingLine = self.detectCrossPath()
         # reject weak detections
         self.lineValid = contrast >= self.minContrast
 
@@ -255,7 +254,7 @@ class SEdge:
                 self.crossingLineCnt = max(0, self.crossingLineCnt - 1)
 
             print(
-                #f"% LineDetect: sensors={values}, contrast={contrast:.1f}, "
+                f"% LineDetect: sensors={values}, contrast={contrast:.1f}, "
                 f"valid=False"
             )
             return
@@ -279,7 +278,7 @@ class SEdge:
             self.lineValidCnt = max(0, self.lineValidCnt - 1)
             self.lostLineCnt += 1
             print(
-                #f"% LineDetect: sensors={values}, contrast={contrast:.1f}, no blob"
+                f"% LineDetect: sensors={values}, contrast={contrast:.1f}, no blob"
             )
             return
 
@@ -340,7 +339,7 @@ class SEdge:
             self.crossingLineCnt = max(0, self.crossingLineCnt - 1)
 
         print(
-            #f"% LineDetect: sensors={values}, "
+            f"% LineDetect: sensors={values}, "
             f"L={self.posLeft:.2f}, C={self.linePos:.2f}, R={self.posRight:.2f}, "
             f"contrast={contrast:.1f}, valid={self.lineValid}, crossing={self.crossingLine}"
         )
@@ -429,6 +428,33 @@ class SEdge:
             f"tauP={self.lineTauP:.3f}, T={self.edge_nInterval:.3f} ms"
         )
 
+    def detectCrossPath(self):
+        values = self.edge_n[:]
+
+        # how many sensors clearly see white
+        white_threshold = 780
+        white_count = sum(1 for v in values if v >= white_threshold)
+
+        # wide white area across the sensor bar
+        wide_white = white_count >= 6
+
+        # also require the average to be high
+        avg_white = (sum(values) / 8.0) >= self.crossingThreshold
+
+        # optional: require center sensors to also be white
+        center_white = values[3] >= white_threshold and values[4] >= white_threshold
+
+        # final decision
+        cross_now = wide_white and avg_white and center_white
+
+        if cross_now:
+            self.crossingLineCnt = min(20, self.crossingLineCnt + 1)
+        else:
+            self.crossingLineCnt = max(0, self.crossingLineCnt - 1)
+
+        # require it for a few frames to avoid false triggers
+        return self.crossingLineCnt >= 3
+    
     def terminate(self):
         from uservice import service
         print("% Edge (sedge.py):: turn off line sensor")

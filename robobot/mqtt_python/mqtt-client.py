@@ -181,7 +181,7 @@ def driveTurnPi():
     else:
       print(f"# drive turned {pose.tripBh:.3f} rad in {pose.tripBtimePassed():.3f} seconds")
       service.send("robobot/cmd/ti","rc 0.0 0.0") # (forward m/s, turn-rate rad/sec)
-      break;
+      break
     print(f"# turn {state}, now {pose.tripBh:.3f} rad in {pose.tripBtimePassed():.3f} seconds; left {edge.posLeft}, right {edge.posRight}")
     t.sleep(0.05)
   pass
@@ -215,26 +215,19 @@ def loop():
       start = True # gpio.start() or service.args.now
       if start:
         print("% Starting")
-        service.send("robobot/cmd/ti","rc 0.4 0.0")
-        state = 12
+        service.send("robobot/cmd/T0","leds 16 0 0 30") # blue: running
+        service.send("robobot/cmd/ti","rc 0.25 0.0") # (forward m/s, turn-rate rad/sec)
+        service.send("robobot/cmd/T0","servo 1 100 300") # (servo down slow)
+        state = 12 # until no more line
+        pose.tripBreset() # use trip counter/timer B
+    elif state == 12: # following line
+      if pose.tripB > 0.5 or pose.tripBtimePassed() > 10:
+        # start turning
+        edge.lineControl(0, True) # stop following line
         pose.tripBreset()
-    elif state == 12: # find the line
-
-      if edge.lineValidCnt > 4:
-        # start following the line
-        edge.lineControl(0.4, True, -1)
-        service.send("robobot/cmd/T0","servo 1 0 0") # (move servo to position 0 - front)
-        pose.tripBreset()
-        state = 13
-      pass
-
-    elif state == 13:
-      if pose.tripBtimePassed() > 5:
-        state = 14 # start turn
-        service.send("robobot/cmd/ti","rc 0.0 0.5") # (forward m/s, turn-rate rad/sec)
-        service.send("robobot/cmd/T0","servo 1 0 1000") # (servo forward faster)
-      pass
-
+        service.send("robobot/cmd/ti","rc 0.1 0.5") # turn left
+        service.send("robobot/cmd/T0","servo 1 -800 1000") # (servo up faster)
+        state = 14 # turn left
     elif state == 14: # turning left
       if pose.tripBh > np.pi/2 or pose.tripBtimePassed() > 10:
         state = 20 # finished
@@ -258,10 +251,10 @@ def loop():
         state = 99
       pass
     elif state == 101:
-      driveOneMeter()
+      driveOneMeter();
       state = 100
     elif state == 102:
-      driveTurnPi()
+      driveTurnPi();
       state = 100
     elif state == 103:
       driveToLine()
