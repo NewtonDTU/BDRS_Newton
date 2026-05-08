@@ -1,0 +1,10 @@
+state 12 -> the robot continue to move till it finds the line (if edge.lineValidCnt > 4)
+state 13 -> the robot follow the line using the p-lead controller in sedge.py
+state 14 -> the robot turn with angular vel
+state 20 -> picture mode
+state 99 -> mission terminated
+
+other states:
+state 101 -> drive one meter
+state 102 -> turn pi
+state 103 -> drive to line
